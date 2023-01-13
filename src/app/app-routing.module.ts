@@ -1,12 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
+import { FutsalComponent } from './futsal/futsal.component';
+import { MobileLegendsComponent } from './mobile-legends/mobile-legends.component';
 
 const routes: Routes = [
-
-  {path: '', pathMatch: 'full', redirectTo: 'home',  component: AppComponent}, 
-  {path: 'navbar', component: NavbarComponent}
+  {path: '', pathMatch: 'full', redirectTo: 'home'}, 
+  {path: 'Home', component: AppComponent},
+  {path: 'MobileLegends', component: MobileLegendsComponent},
+  {path: 'Futsal', component: FutsalComponent},
 ];
 
 @NgModule({

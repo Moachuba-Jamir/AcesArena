@@ -4,11 +4,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { MobileLegendsComponent } from './mobile-legends/mobile-legends.component';
+import { FutsalComponent } from './futsal/futsal.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    MobileLegendsComponent,
+    FutsalComponent
   ],
   imports: [
     BrowserModule,
