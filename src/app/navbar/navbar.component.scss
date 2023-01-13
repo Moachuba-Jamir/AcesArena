@@ -1,11 +1,16 @@
 .navbar{
-    padding-block: 1.2%;
+    padding-block: .5%;
     // Aces arena game Management
     .navbar-brand{
-        font-size: 1.8em;
+        font-size: 1.4em;
+        color: white;
     }
     // nav Items 
     a{
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
+    li{
+        color: white;
+    }
+ 
 }
